@@ -111,6 +111,7 @@
 .cover__description {
   position: relative;
   justify-content: right;
+  display: flex; 
 }
 
 .cover__description-text {
