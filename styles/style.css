@@ -2,8 +2,8 @@
   display: grid;
   align-items: center;
   grid-template-columns: 1fr min-content 1fr;
-  margin: 92px 49px 92px 51px;
-  height: 109px;
+  padding: 92px 49px 92px 51px;
+  justify-items: baseline;
 }
 
 .header__menu {
@@ -63,6 +63,7 @@
   padding: 155px 50px 50px 50px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .overlay {
@@ -87,7 +88,7 @@
   letter-spacing: 30px;
 }
 
-.aligned-text {
+.aligned-text_left {
   line-height: 120px;
 }
 
@@ -111,7 +112,7 @@
 .cover__description {
   position: relative;
   justify-content: right;
-  display: flex;
+  display: flex; 
 }
 
 .cover__description-text {
@@ -128,6 +129,7 @@
 }
 
 .bet-button {
+  cursor: pointer;
   background: transparent;
   padding: 12px 32px;
   border: 1px solid #fff;
@@ -186,6 +188,7 @@
 }
 
 .card {
+  background-position: center;
   background-size: cover;
   position: relative;
   display: flex;
@@ -318,3 +321,4 @@
   width: 46px;
   height: 46px;
 }
+  
