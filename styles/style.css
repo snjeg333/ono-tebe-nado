@@ -108,14 +108,10 @@
   letter-spacing: 1px;
 }
 
-
-
-
-
 .cover__description {
   position: relative;
   justify-content: right;
-  display: flex; 
+  display: flex;
 }
 
 .cover__description-text {
